@@ -5,7 +5,6 @@ from telebot import types
 
 bot = telebot.TeleBot("7129636315:AAEWG7SkG0qHedKiJpj05QW9kTsv9ackYhI")
 
-st = False
 
 with open("base.json", "r", encoding='utf8') as b:
     base_dialog = json.load(b)
